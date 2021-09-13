@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Builder</title>
+	<link rel="stylesheet" type="text/css" href="./styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="./styles/style-scrollbar.css">
+	<link rel="stylesheet" type="text/css" href="./styles/menu_2.css">
+	<link rel="stylesheet" type="text/css" href="./styles/menu_1.css">
+</head>
+<body>
+	<div class="main_container">
+		<div class="builder_container">
+			<div class="menu_container modify_container" xlabel="menu">
+				<button class="menu_button menu_button_left button_left"><</button>
+				<div class="menu_slider slide_parent">
+					<div id="menu_1" class="menu_block slide_it">
+						<p id="menu_title" class="menu_title modify_input" xlabel="Tytuł">Menus pierwszy</p>
+					</div>
+					<div id="menu_2" class="menu_block slide_it">
+						<p id="menu_title" class="menu_title modify_input" xlabel="Bodik">Menus drugi</p>
+					</div>
+					<div id="menu_3" class="menu_block slide_it">
+						<p id="menu_title" class="menu_title modify_input" xlabel="trzy">Menus trzy</p>
+					</div>
+				</div>
+				<button class="menu_button menu_button_right button_right">></button>
+			</div>
+			<div class="content modify_container" xlabel="content">
+				
+			</div>
+			<div class="footer modify_container" xlabel="footer">
+				
+			</div>
+		</div>
+		<div class="interact_container">
+			<form class="interact_form flex">
+				<div class="interact_section_edit flex"></div>
+				<div class="interact_generated_inputs flex"></div>
+			</form>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./scripts/modify_input.js"></script>
+	<script type="text/javascript" src="./scripts/element_slide.js"></script>
+</body>
+</html>
